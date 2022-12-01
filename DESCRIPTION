@@ -1,0 +1,25 @@
+Package: course.github
+Type: Package
+Title: GitHub
+Version: 0.0.3
+Authors@R: c(
+    person(given   = "Aurélie",
+           family  = "Siberchicot",
+           role    = c("aut", "cre"),
+           email   = "aurelie.siberchicot@univ-lyon1.fr",
+           comment = c(ORCID = "0000-0002-7638-8318")))
+Description: Online presentation 'GitHub'. This course is 
+    part of the workshop 'Data Toolbox for Reproducible Research in Ecology' 
+    co-organized by the FRB-CESAB (<https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/>)
+    and the GdR EcoStat (<https://sites.google.com/site/gdrecostat/>).
+URL: https://github.com/rdatatoolbox/course-github, https://rdatatoolbox/github.io/course-github
+BugReports: https://github.com/rdatatoolbox/course-github/issues
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+SystemRequirements: pandoc, Rtools (for Windows users)
+Imports:
+    fontawesome,
+    xaringan

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title> GitHub</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="   Aurélie Siberchicot" />
+    <script src="libs/header-attrs-2.18/header-attrs.js"></script>
+    <link rel="stylesheet" href="css/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: right, middle, title-slide
+
+.title[
+# <br />GitHub
+]
+.subtitle[
+## <i>Gérer ses projets git sur le web</i>
+]
+.author[
+### <br /><br /><br />Aurélie Siberchicot
+]
+.date[
+### .inst[Novembre 2022]
+]
+
+---
+
+
+
+
+## C'est quoi GitHub ?
+
+&lt;br /&gt;
+
+- Service web
+- Interface conviviale intégrant les fonctionnalités git
+- Hébergement gratuit de codes publics versionnés avec git 
+- Accès illimité en nombre de projets et de collaborateur·trice·s
+
+
+- Société à but lucratif
+- Lancé en 2008
+- Détenu par Microsoft depuis 2018
+- 45 millions d'utilisateur·trice·s en 2020
+
+&lt;br /&gt;
+
+.center[
+![:scale 35.0%](img/GitHub_Logo.png)
+![:scale 15.0%](img/GitHub-Mark-120px-plus.png)
+]
+
+
+
+---
+
+## Interface pour git : page projet 
+
+.center[
+[![:scale 70.0%](img/github-pageprojet.png)](https://github.com/sdray/ade4)
+]
+
+- Arboresence du projet Git
+- Page d'accueil README.md
+- Liens et des informations globales
+
+---
+
+## Interface pour git : fork
+
+.center[
+![:scale 50.0%](img/github-fork.png)
+]
+
+- Bouton ![:scale 13.0%](img/github-boutonfork.png) en haut à droite de la page GitHub du projet
+- Copie du projet dans sa liste des projets GitHub
+- Les modifications que vous apportez n'existent que sur votre copie du projet et n'affectent donc pas le projet d'origine.
+
+
+---
+
+## Interface pour git : pull request
+
+.center[
+![:scale 45.0%](img/github-pullrequest2.png)
+&amp;nbsp;
+![:scale 45.0%](img/github-pullrequest.png)
+]
+
+- Bouton ![:scale 13.0%](img/github-boutonpullrequest.png) dans l'onglet ![:scale 13.0%](img/github-menupullrequest.png) du projet.
+- Soumission d'une modification que vous jugez satisfaisante et pertinente.
+- Sur un projet que vous avez forké, sur lequel vous n'avez pas les droits.
+
+---
+
+## Interface pour git : merge
+
+.pull-leftt[
+.center[![:scale 100.0%](img/github-merge.png)]
+]
+.pull-rightt[
+- Les propriétaires du projet peuvent décider d'intégrer la modification soumise via le pull request.
+- L'interface GitHub propose une gestion des conflits de code.
+
+&amp;nbsp;
+
+![:scale 100.0%](img/pullrequest-mergebutton.png)
+]
+
+---
+
+## Un réseau social pour les dévelopeur·se·s
+
+.pull-leftt2[
+- Tout le monde peut se créer un compte
+- Possibilité de suivre des personnes (Follow) et des projets (Watch, Star)
+- Possibilité de créer un ![:scale 10.0%](img/github-wiki.png) ou une page web liée à votre projet
+- Possibilité de bénéficier ou de proposer de l'aide sur des codes publics (![:scale 15.0%](img/github-issues.png))
+- Possibilité de commenter des commits
+- Grande visibilité
+- Très grande communauté
+]
+.pull-rightt2[
+.center[![:scale 75%](img/github-follow.png)]
+.center[![:scale 75%](img/github-watch.png)]
+]
+
+
+
+---
+
+## Intégration continue avec GitHub Actions
+
+.pull-leftt[
+![:scale 100%](img/github-actions2.png)
+&amp;nbsp;
+![:scale 100%](img/github-actions.png)
+]
+.pull-rightt[
+- Création d'un workflow dans l'onglet ![:scale 12%](img/github-workflow.png)
+- Fichier de configuration écrit en yaml
+- Variables environnementales pour définir l'OS, les versions, les librairies des machines déployées
+- Exécuté à chaque nouveau commit ou pull request
+- Utile pour checker les packages sur plusieurs OS et avec plusieurs versions de R
+]
+
+
+---
+
+
+## Alternatives
+
+&amp;nbsp;
+
+![:scale 22%](img/GitLab_logo.svg.png)
+&amp;nbsp;
+![:scale 22%](img/Bitbucket-Logo-blue.svg.png)
+&amp;nbsp;
+![:scale 22%](img/SourceForge_logo_transparent.svg.png)
+&amp;nbsp;
+![:scale 22%](img/rforge_logo.png)
+
+--
+
+&amp;nbsp;
+
+
+GitLab : 
+- L'alternative à GitHub la plus répandue
+- Existe depuis 2011
+- Entièrement open source (contrairement à GitHub)
+- Possibilité d'avoir une installation GitLab auto-hébergée sur un serveur privé (voir [instance](https://doc.cc.in2p3.fr/fr/Collaborative-tools/tools/gitlab.html) académique disponible au centre de calcul de l'IN2P3 ; chez GitHub, uniquement accessible avec un plan d'entreprise payant)
+
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="libs/macros.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "4:3",
+"highlightStyle": "zenburn",
+"highlightLines": false,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current% / %total%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

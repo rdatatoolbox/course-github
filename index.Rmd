@@ -1,0 +1,174 @@
+---
+title: "<br />GitHub"
+subtitle: "<i>Gérer ses projets git sur le web</i>"
+date: .inst[Novembre 2022]
+author: <br /><br /><br />Aurélie Siberchicot
+output:
+  xaringan::moon_reader:
+    css: ["css/xaringan-themer.css", "css/custom.css"]
+    lib_dir: "libs"
+    seal: true
+    yolo: false
+    self_contained: false
+    nature:
+      ratio: "4:3"
+      titleSlideClass: ["right", "middle"]
+      highlightStyle: 'zenburn'
+      highlightLines: false
+      countIncrementalSlides: false
+      slideNumberFormat: "%current% / %total%"
+      beforeInit: "libs/macros.js"
+---
+
+
+
+## C'est quoi GitHub ?
+
+<br />
+
+- Service web
+- Interface conviviale intégrant les fonctionnalités git
+- Hébergement gratuit de codes publics versionnés avec git 
+- Accès illimité en nombre de projets et de collaborateur·trice·s
+
+
+- Société à but lucratif
+- Lancé en 2008
+- Détenu par Microsoft depuis 2018
+- 45 millions d'utilisateur·trice·s en 2020
+
+<br />
+
+.center[
+![:scale 35.0%](img/GitHub_Logo.png)
+![:scale 15.0%](img/GitHub-Mark-120px-plus.png)
+]
+
+
+
+---
+
+## Interface pour git : page projet 
+
+.center[
+[![:scale 70.0%](img/github-pageprojet.png)](https://github.com/sdray/ade4)
+]
+
+- Arboresence du projet Git
+- Page d'accueil README.md
+- Liens et des informations globales
+
+---
+
+## Interface pour git : fork
+
+.center[
+![:scale 50.0%](img/github-fork.png)
+]
+
+- Bouton ![:scale 13.0%](img/github-boutonfork.png) en haut à droite de la page GitHub du projet
+- Copie du projet dans sa liste des projets GitHub
+- Les modifications que vous apportez n'existent que sur votre copie du projet et n'affectent donc pas le projet d'origine.
+
+
+---
+
+## Interface pour git : pull request
+
+.center[
+![:scale 45.0%](img/github-pullrequest2.png)
+&nbsp;
+![:scale 45.0%](img/github-pullrequest.png)
+]
+
+- Bouton ![:scale 13.0%](img/github-boutonpullrequest.png) dans l'onglet ![:scale 13.0%](img/github-menupullrequest.png) du projet.
+- Soumission d'une modification que vous jugez satisfaisante et pertinente.
+- Sur un projet que vous avez forké, sur lequel vous n'avez pas les droits.
+
+---
+
+## Interface pour git : merge
+
+.pull-leftt[
+.center[![:scale 100.0%](img/github-merge.png)]
+]
+.pull-rightt[
+- Les propriétaires du projet peuvent décider d'intégrer la modification soumise via le pull request.
+- L'interface GitHub propose une gestion des conflits de code.
+
+&nbsp;
+
+![:scale 100.0%](img/pullrequest-mergebutton.png)
+]
+
+---
+
+## Un réseau social pour les dévelopeur·se·s
+
+.pull-leftt2[
+- Tout le monde peut se créer un compte
+- Possibilité de suivre des personnes (Follow) et des projets (Watch, Star)
+- Possibilité de créer un ![:scale 10.0%](img/github-wiki.png) ou une page web liée à votre projet
+- Possibilité de bénéficier ou de proposer de l'aide sur des codes publics (![:scale 15.0%](img/github-issues.png))
+- Possibilité de commenter des commits
+- Grande visibilité
+- Très grande communauté
+]
+.pull-rightt2[
+.center[![:scale 75%](img/github-follow.png)]
+.center[![:scale 75%](img/github-watch.png)]
+]
+
+
+
+---
+
+## Intégration continue avec GitHub Actions
+
+.pull-leftt[
+![:scale 100%](img/github-actions2.png)
+&nbsp;
+![:scale 100%](img/github-actions.png)
+]
+.pull-rightt[
+- Création d'un workflow dans l'onglet ![:scale 12%](img/github-workflow.png)
+- Fichier de configuration écrit en yaml
+- Variables environnementales pour définir l'OS, les versions, les librairies des machines déployées
+- Exécuté à chaque nouveau commit ou pull request
+- Utile pour checker les packages sur plusieurs OS et avec plusieurs versions de R
+]
+
+
+---
+
+
+## Alternatives
+
+&nbsp;
+
+![:scale 22%](img/GitLab_logo.svg.png)
+&nbsp;
+![:scale 22%](img/Bitbucket-Logo-blue.svg.png)
+&nbsp;
+![:scale 22%](img/SourceForge_logo_transparent.svg.png)
+&nbsp;
+![:scale 22%](img/rforge_logo.png)
+
+--
+
+&nbsp;
+
+
+GitLab : 
+- L'alternative à GitHub la plus répandue
+- Existe depuis 2011
+- Entièrement open source (contrairement à GitHub)
+- Possibilité d'avoir une installation GitLab auto-hébergée sur un serveur privé (voir [instance](https://doc.cc.in2p3.fr/fr/Collaborative-tools/tools/gitlab.html) académique disponible au centre de calcul de l'IN2P3 ; chez GitHub, uniquement accessible avec un plan d'entreprise payant)
+
+
+
+
+
+
+
+
