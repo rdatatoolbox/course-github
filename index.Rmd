@@ -1,7 +1,7 @@
 ---
 title: "<br />GitHub"
 subtitle: "<i>Gérer ses projets git sur le web</i>"
-date: .inst[Novembre 2022]
+date: .inst[Novembre 2023]
 author: <br /><br /><br />Aurélie Siberchicot
 output:
   xaringan::moon_reader:
@@ -27,8 +27,8 @@ output:
 <br />
 
 - Service web
-- Interface conviviale intégrant les fonctionnalités git
-- Hébergement gratuit de codes publics versionnés avec git 
+- Interface conviviale intégrant les fonctionnalités `git`
+- Hébergement gratuit de codes publics versionnés avec `git` 
 - Accès illimité en nombre de projets et de collaborateur·trice·s
 
 
@@ -54,9 +54,9 @@ output:
 [![:scale 70.0%](img/github-pageprojet.png)](https://github.com/sdray/ade4)
 ]
 
-- Arboresence du projet Git
-- Page d'accueil README.md
-- Liens et des informations globales
+- Arboresence du projet `git`
+- Page d'accueil `README.md`
+- Liens et informations globales
 
 ---
 
@@ -132,7 +132,7 @@ output:
 ]
 .pull-rightt[
 - Création d'un workflow dans l'onglet ![:scale 12%](img/github-workflow.png)
-- Fichier de configuration écrit en yaml
+- Fichier de configuration écrit en `yaml`
 - Variables environnementales pour définir l'OS, les versions, les librairies des machines déployées
 - Exécuté à chaque nouveau commit ou pull request
 - Utile pour checker les packages sur plusieurs OS et avec plusieurs versions de R
@@ -162,7 +162,7 @@ output:
 GitLab : 
 - L'alternative à GitHub la plus répandue
 - Existe depuis 2011
-- Entièrement open source (contrairement à GitHub)
+- Entièrement **libre** (contrairement à GitHub)
 - Possibilité d'avoir une installation GitLab auto-hébergée sur un serveur privé (voir [instance](https://doc.cc.in2p3.fr/fr/Collaborative-tools/tools/gitlab.html) académique disponible au centre de calcul de l'IN2P3 ; chez GitHub, uniquement accessible avec un plan d'entreprise payant)
 
 
