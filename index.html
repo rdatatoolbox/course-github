@@ -4,7 +4,7 @@
     <title> GitHub</title>
     <meta charset="utf-8" />
     <meta name="author" content="   Aurélie Siberchicot" />
-    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
     <link rel="stylesheet" href="css/xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
   </head>
@@ -22,7 +22,7 @@ class: right, middle, title-slide
 ### <br /><br /><br />Aurélie Siberchicot
 ]
 .date[
-### .inst[Novembre 2023]
+### .inst[Décembre 2024]
 ]
 
 ---
@@ -34,16 +34,15 @@ class: right, middle, title-slide
 
 &lt;br /&gt;
 
-- Service web
-- Interface conviviale intégrant les fonctionnalités `git`
-- Hébergement gratuit de codes publics versionnés avec `git` 
-- Accès illimité en nombre de projets et de collaborateur·trice·s
+- Service web avec une interface simplifiée pour `git`
+- Outils intégrés : gestion de projet, suivi des tâches, revue de code
+- Hébergement gratuit de projets publics
+- Projets et collaborations illimité·e·s
 
 
-- Société à but lucratif
-- Lancé en 2008
-- Détenu par Microsoft depuis 2018
+- Société privée, lancée en 2008, rachetée par Microsoft en 2018
 - [100 millions d'utilisateur·trice·s en 2023](https://github.blog/2023-01-25-100-million-developers-and-counting/)
+- [Plus de 500 millions de projets en 2024](https://www.expresscomputer.in/news/github-embraces-developer-choice-with-multi-model-copilot-new-app-tool-github-spark-and-ai-native-developer-experience/118154/)
 
 &lt;br /&gt;
 
@@ -56,100 +55,106 @@ class: right, middle, title-slide
 
 ---
 
-## Interface pour `git` : page projet 
+## Les pages projet 
+
+L'exemple du projet `ade4` : https://github.com/adeverse/ade4
 
 .center[
-[![:scale 60.0%](img/github-pageprojet.png)](https://github.com/sdray/ade4)
+[![:scale 25%](img/logoade4.png)](https://github.com/adeverse/ade4)
 ]
 
-- Arboresence du projet `git`
-- Page d'accueil `README.md`
-- Liens et informations globales
+- Dossiers et fichiers contenus dans le projet `git`
+- Affichage du `README.md` interpreté
+- Liens et informations générales : page web du projet, contributeur·trice·s, langage, ...
 
 ---
 
-## Interface pour `git` : fork
+## Fonctionnalité `git` : `fork`
 
 .center[
-![:scale 70.0%](img/github-fork.png)
+![:scale 60.0%](img/github-fork.png)
 ]
 
 - Bouton ![:scale 13.0%](img/github-boutonfork.png) en haut à droite de la page GitHub du projet
-- Copie du projet dans sa liste des projets GitHub
-- Les modifications que vous apportez n'existent que sur votre copie du projet et n'affectent donc pas le projet d'origine.
+- Copie du projet *forké* dans vos projets GitHub
+- Les modifications que vous apportez n'existent que sur votre `fork` du projet et n'affectent donc pas le projet d'origine.
 
 
 ---
 
-## Interface pour `git` : pull request
+## Fonctionnalité `git` : pull request (*PR*)
 
 .center[
-![:scale 45.0%](img/github-pullrequest2.png)
+![:scale 48.0%](img/github-pullrequest2.png)
 &amp;nbsp;
-![:scale 45.0%](img/github-pullrequest.png)
+![:scale 48.0%](img/github-pullrequest.png)
 ]
 
 - Bouton ![:scale 13.0%](img/github-boutonpullrequest.png) dans l'onglet ![:scale 13.0%](img/github-menupullrequest.png) du projet.
-- Soumission d'une modification que vous jugez satisfaisante et pertinente.
-- Sur un projet que vous avez forké, sur lequel vous n'avez pas les droits.
+- Envoi d'une modification que vous jugez satisfaisante et pertinente.
+- Sur un projet que vous avez *forké* et donc sur lequel vous n'avez pas les droits.
 
 ---
 
-## Interface pour `git` : merge
+## Fonctionnalité `git` : `merge`
 
-.pull-leftt[
-.center[![:scale 100.0%](img/github-merge.png)]
-]
-.pull-rightt[
-- Les propriétaires du projet peuvent décider d'intégrer la modification soumise via le pull request.
+[![:scale 65%](img/github-merge.png)](https://github.com/adeverse/ade4/pull/44)
+&amp;nbsp;
+![:scale 30%](img/pullrequest-mergebutton.png)
+
+- Les propriétaires du projet décident d'intégrer (ou pas) la modification soumise par PR.
 - L'interface GitHub propose une gestion des conflits de code.
 
-&amp;nbsp;
 
-![:scale 100.0%](img/pullrequest-mergebutton.png)
-]
 
 ---
 
-## Un réseau social pour les dévelopeur·se·s
+## Un réseau social 
+
 
 .pull-leftt2[
-- Tout le monde peut se créer un compte
-- Suivre des personnes (Follow) et des projets (Watch, Star)
-- Créer un ![:scale 10.0%](img/github-wiki.png) ou une page web liée à votre projet
-- Bénéficier ou de proposer de l'aide sur des codes publics (![:scale 15.0%](img/github-issues.png))
-- Commenter des commits
-- Grande visibilité
-- Très grande communauté
+
+- Créer simplement et gratuitement un compte
+- Accéder à des millions de projets open source
+- Bénéficier d'une visibilité mondiale
+
+
+- Suivre des dévelopeur·se·s (*Follow*) ou des projets (*Watch*, *Star*)
+- Mettre à disposition de la documentation dans un ![:scale 11.0%](img/github-wiki.png) ou une page web (via GitHub pages)
+- Interagir sur le code en commentant les commits ou en postant des (![:scale 17.0%](img/github-issues.png))
+- Discuter du projet ![:scale 20.0%](img/github-discussion.png)
 ]
 .pull-rightt2[
-.center[![:scale 75%](img/github-follow.png)]
-.center[![:scale 75%](img/github-watch.png)]
+.center[[![:scale 85%](img/github-follow.png)](https://github.com/ahasverus)]
+.center[![:scale 85%](img/github-watch.png)]
 ]
 
 
 
 ---
 
-## Intégration continue avec GitHub Actions
+## Intégration Continue (CI) avec GitHub Actions
+
+- Automatisation de tâches : tester du code, déployer une page web, *checker* un package, construire des binaires, générer des documents
+- Déclenchement à chaque fois qu'un évènement se produit : *commit* ou *pull request*
+- Configuration des étapes à exécuter dans un workflow écrit en *yaml* 
+
+
+- Tout se passe dans GitHub : onglet ![:scale 8%](img/github-workflow.png).
+- Les workflows sont dans le dossier *.github/workflows*.
+- Gestion très fine de la configuration des machines déployées : choix des OS, des librairies systèmes et de leur version (`latest` ou `devel`)
 
 
 .center[
-![:scale 45%](img/github-actions2.png)
+[![:scale 48%](img/github-actions1.png)](https://github.com/adeverse/ade4/actions)
 &amp;nbsp;
-![:scale 45%](img/github-actions.png)
+[![:scale 48%](img/github-actions2.png)](https://github.com/adeverse/ade4/actions)
 ]
 
 
-- Création d'un workflow dans l'onglet ![:scale 8%](img/github-workflow.png)
-- Fichier de configuration écrit en yaml
-- Variables environnementales pour définir l'OS, les versions, les librairies des machines déployées
-- Exécuté à chaque nouveau commit ou pull request
-- Utile pour checker les packages sur plusieurs OS et avec plusieurs versions de R
 
 
 ---
-
 
 ## Alternatives
 
@@ -163,24 +168,54 @@ class: right, middle, title-slide
 &amp;nbsp;
 ![:scale 22%](img/rforge_logo.png)
 
---
+---
+
+## Alternatives
 
 &amp;nbsp;
 
+![:scale 22%](img/GitLab_logo.svg.png)
 
-GitLab : 
-- L'alternative à GitHub la plus répandue
+&amp;nbsp;
 - Existe depuis 2011
-- Entièrement **libre** (contrairement à GitHub)
-- Possibilité d'avoir une installation GitLab auto-hébergée sur un serveur privé (voir [instance](https://doc.cc.in2p3.fr/fr/Collaborative-tools/tools/gitlab.html) académique disponible au centre de calcul de l'IN2P3 à Lyon ; chez GitHub, uniquement accessible avec un plan d'entreprise payant)
+- L'alternative à GitHub la plus répandue
+- **Open source**
+- Disponible en version *cloud* et en **auto-hébergement** (possibilité de l'installer sur vos propres serveurs)
+- Exemple de l'[instance](https://doc.cc.in2p3.fr/fr/Collaborative-tools/tools/gitlab.html) académique disponible au centre de calcul de l'IN2P3 à Lyon (CC-IN2P3)
+- Recommandé par nos tutelles pour la **recherche académique**
+
+---
+
+## Software Heritage
+
+- Initiative lancée en 2016 et soutenue par l'UNESCO
+- **Archive** mondiale de code source open source
+- Moissone des millions de projets hébergés dans de nombreuses plateformes et forges
+- Pour préserver le **patrimoine logiciel mondial** et garantir l'accès à son historique
+- Fournit un identifiant unique **SWID** à chaque projet archivé
+- Le SWHID est également attribué aux dépôts de logiciels sur HAL.
+- Pour une meilleure citation et valorisations des logiciels.
+
+---
+
+## Software Heritage &amp; GitHub 
 
 
+- Initiative lancée en 2016 et soutenue par l'UNESCO
+- **Archive** mondiale de code source open source
+- Moissone des millions de projets hébergés dans de nombreuses plateformes et forges
+- Pour préserver le **patrimoine logiciel mondial** et garantir l'accès à son historique
+- Fournit un identifiant unique **SWID** à chaque projet archivé
+- Le SWHID est également attribué aux dépôts de logiciels sur HAL.
+- Pour une meilleure citation et valorisations des logiciels.
 
 
+- Fichier **codemeta.json** contenant les metadata du projet (voir le package R `codemeta`)
+- Badge ![:scale 20%](img/github-badgeSH.png)
+- Pluging *UpdateSWH* dans *Firefox* ![:scale 3%](img/github-plugin.png)
 
 
-
-
+Pour [ade4](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/adeverse/ade4&amp;snapshot=d0a04c46be666ed2d30bcabbbd37ee632e64f02c)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
