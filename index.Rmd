@@ -180,7 +180,8 @@ L'exemple du projet `ade4` : https://github.com/adeverse/ade4
 
 ## Software Heritage
 
-- Initiative lancée en 2016 et soutenue par l'UNESCO
+- Initiative française lancée en 2016 et soutenue par l'UNESCO
+- Inclus dans le **Plan National Français pour la Science Ouverte** 
 - **Archive** mondiale de code source open source
 - Moissone des millions de projets hébergés dans de nombreuses plateformes et forges
 - Pour préserver le **patrimoine logiciel mondial** et garantir l'accès à son historique
@@ -193,7 +194,8 @@ L'exemple du projet `ade4` : https://github.com/adeverse/ade4
 ## Software Heritage & GitHub 
 
 
-- Initiative lancée en 2016 et soutenue par l'UNESCO
+- Initiative française lancée en 2016 et soutenue par l'UNESCO
+- Inclus dans le Plan National Français pour la Science Ouverte 
 - **Archive** mondiale de code source open source
 - Moissone des millions de projets hébergés dans de nombreuses plateformes et forges
 - Pour préserver le **patrimoine logiciel mondial** et garantir l'accès à son historique
